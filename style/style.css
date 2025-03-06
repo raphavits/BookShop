@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+body{
+    background-color: #333333;
+
+     
+}
+
+.container{
+    background-color: #5e5c5c;
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border-radius: 20px;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.titulo{
+    color: #8e2de5;
+}
+
+.esqueceu-senha{
+    color: #8e2de6;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.naotemconta{
+    color: #818591;
+    font-size: 11px;
+    
+    
+}
+
+.registrar{
+    color: #8e2de6;
+    outline: none;
+    text-decoration: none;
+}
+
+.bloco1{
+    margin: 40px;
+    padding: 20px;
+}
+
+.bloco2{
+    margin: 40px;
+    padding: 20px;
+
+    
+}
+
+.email{
+    background-color: transparent;
+    border: 2px solid #818591;
+    padding: 5px;
+    color: #818591;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.senha{
+    background-color: transparent;
+    border: 2px solid #818591;
+    padding: 5px;
+    color: #818591;
+    border-radius: 20px;
+    outline: none;
+
+}
+
+.frases{
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    top: -40px;
+    font-size: 10px;
+    color: #818591;
+}
+
+#icons{
+    font-size: 14px;
+}
